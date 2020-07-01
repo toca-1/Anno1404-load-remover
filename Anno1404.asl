@@ -1,9 +1,11 @@
 // Simple load remover for Anno 1404
 // Works with the original game ("Anno4") as well as the History edition ("Anno1404")
+//
+// v1.1 (2020/Jul/01): fixed the history edition pointer
 
 state("Anno1404")
 {
-bool loading	: 0x01F4E778, 0x404;
+bool loading	: 0x01F4F898, 0x404;
 }
 
 state("Anno4")
