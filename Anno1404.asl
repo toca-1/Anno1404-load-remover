@@ -1,5 +1,5 @@
 // Simple load remover for Anno 1404
-// Works with the original game ("Anno4", game version v1.01.2037) as well as the History edition ("Anno1404", game version v3.00.4250/1.4951.945954)
+// Works with the original game ("Anno4", game version v1.03.3650) as well as the History edition ("Anno1404", game version v3.00.4250/1.4951.945954)
 //
 //---------------------------------------------------------------------------------
 // CHANGE LOG
