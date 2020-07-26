@@ -4,7 +4,7 @@
 //---------------------------------------------------------------------------------
 // CHANGE LOG
 //
-// v1.0 (2020/Jun/28): initialization. works with freshly installed original game (v1.00.1762) and well as history edition
+// v1.0 (2020/Jun/28): initialization. works with freshly installed original game (v1.00.1762) and well as history edition (v3.00.4250/1.4513.940870)
 //
 // v1.1 (2020/Jul/01): fixed the history edition pointer (game version v3.00.4250/1.4645.942142)
 // loading base address changed from 0x01F4E778 to 0x01F4F898
