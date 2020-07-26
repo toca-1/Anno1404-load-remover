@@ -14,6 +14,12 @@
 //
 // v1.3 (2020/Jul/17): fixed the original game pointer (game version v1.01.2037)
 // loading base address changed from 0x00020B44 to 0x00021794
+//
+// v1.4-pre (2020/Jul/26): fixed the original game pointer (game version v1.02.2619)
+// loading base address changed from 0x00020B44 to 0x00021544
+//
+// v1.4 (2020/Jul/26): fixed the original game pointer (game version v1.03.3650)
+// loading base address changed from 0x00021544 to 0x00021534
 //---------------------------------------------------------------------------------
 
 state("Anno1404")
@@ -23,7 +29,7 @@ bool loading	: 0x01F528B8, 0x404;
 
 state("Anno4")
 {
-bool loading	: 0x00021794, 0x4;
+bool loading	: 0x00021534, 0x4;
 }
 
 isLoading
