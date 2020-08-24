@@ -1,5 +1,5 @@
 // Simple load remover for Anno 1404
-// Works with the original game ("Anno4", game version v1.03.3650) as well as the History edition ("Anno1404", game version v3.00.4250/1.4951.945954)
+// Works with the original game ("Anno4", game version v1.03.3650) as well as the History edition ("Anno1404", game version v3.00.4250/1.5230.951665)
 //
 //---------------------------------------------------------------------------------
 // CHANGE LOG
@@ -20,11 +20,14 @@
 //
 // v1.4 (2020/Jul/26): fixed the original game pointer (game version v1.03.3650)
 // loading base address changed from 0x00021544 to 0x00021534
+//
+// v1.5 (2020/Aug/24): fixed the history edition pointer (game version v3.00.4250/1.5230.951665)
+// loading base address changed from 0x01F4F898 to 0x01F127D0, now with more offsets
 //---------------------------------------------------------------------------------
 
 state("Anno1404")
 {
-bool loading	: 0x01F528B8, 0x404;
+bool loading	: 0x01F127D0, 0x5A0, 0x890, 0x58;
 }
 
 state("Anno4")
